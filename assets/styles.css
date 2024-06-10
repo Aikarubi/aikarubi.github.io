@@ -1,0 +1,63 @@
+:root {
+    --oscuro: #3C3D42;
+    --claro: #F6F8E2;
+    --verde: #9CCD62;
+    --crema: #E0DDCA;
+    --blanco: #FDFDFD;
+}
+
+/* Globales */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Poppins', sans-serif;
+    /*background-image: linear-gradient(to top, var(--claro) 0%, var(--blanco) 100%);*/
+}
+
+/*Titulos*/
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+header {
+    background-color: var(--oscuro);
+    color: var(--claro);
+    
+}
+
+header img {
+    width: 18rem;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--verde);
+    border: #9CCD62 1px solid;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.myself {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myself img{
+    width: 15rem;
+}
