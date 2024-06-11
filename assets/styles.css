@@ -125,21 +125,82 @@ h2 {
     text-align: center;
 }
 
+/* GitHub Section */
 .github {
     background-color: var(--blanco);
-    height: 22rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
-.github h3, .github a {
-    display: inline;
-}
 
 .sobre-mi {
     background-color: var(--crema);
+    text-align: center;
+
 }
 
+/* Section Sobre Mi */
+.sobre-mi {
+    background-color: var(--crema);
+    padding: 4rem 2rem;
+    text-align: center;
+}
 
+.sobre-mi .skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.sobre-mi section {
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.sobre-mi section img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-mi h3 {
+    margin: 1rem 0;
+}
+
+.sobre-mi ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-mi ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Section Contacto */
+.contacto {
+    background-color: var(--blanco);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.contacto .contact-button {
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+}
 
 footer {
     background-color: var(--oscuro);
