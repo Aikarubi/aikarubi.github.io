@@ -21,43 +21,127 @@ html {
 body {
     font-size: 16px; /* 1rem = 10px */
     font-family: 'Poppins', sans-serif;
-    /*background-image: linear-gradient(to top, var(--claro) 0%, var(--blanco) 100%);*/
-}
-
-/*Titulos*/
-
-/*h1 {
-    font-size: 3.8rem;
-}
-
-h2 {
-    font-size: 2.8rem;
+    color: var(--oscuro);
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
     background-color: var(--oscuro);
-    color: var(--claro);
-
 }
 
-header img {
-    width: 18rem;
+.logo {
+    max-width: 150px;
 }
 
-header a {
+.contact-button {
+    background-color: var(--claro);
+    color: var(--oscuro);
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    color: var(--verde);
-    border: #9CCD62 1px solid;
-    padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: var(--verde);
 }
 
 .myself {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--claro);
+}
+
+.contenido-myself {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
-*/
-.myself img{
-    width: 15rem;
+
+h1 {
+    font-size: 3.8rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.icon {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+/* Proyectos */
+.proyectos {
+    background-color: var(--claro);
+    text-align: center;
+    padding: 2rem;
+    height: 35rem;
+}
+
+.proyectos h2 {
+    padding: 4rem 0 0;
+}
+
+.utility {
+    display: flex;
+    justify-content: center;
+}
+
+.proyectos p {
+    width: 80rem;
+    max-width: 100%;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.cards-container section {
+    background-color: var(--blanco);
+    color: var(--oscuro);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 25%;
+    height: 20rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.github {
+    background-color: var(--blanco);
+    height: 22rem;
+    text-align: center;
+}
+
+.github h3, .github a {
+    display: inline;
+}
+
+.sobre-mi {
+    background-color: var(--crema);
+}
+
+
+
+footer {
+    background-color: var(--oscuro);
+    color: var(--claro);
 }
