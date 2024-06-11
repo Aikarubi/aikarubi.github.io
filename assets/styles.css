@@ -45,7 +45,7 @@ header {
     text-decoration: none;
     border-radius: 5px;
     font-weight: 600;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
 }
 
 .contact-button:hover {
@@ -94,7 +94,7 @@ h2 {
 }
 
 .proyectos h2 {
-    padding: 4rem 0 0;
+    padding: 2.5rem 0 0;
 }
 
 .utility {
@@ -103,14 +103,14 @@ h2 {
 }
 
 .proyectos p {
-    width: 80rem;
+    width: 85rem;
     max-width: 100%;
 }
 
 .cards-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .cards-container section {
@@ -137,18 +137,17 @@ h2 {
     text-align: center;
 }
 
-
-.sobre-mi {
-    background-color: var(--crema);
-    text-align: center;
-
-}
-
 /* Section Sobre Mi */
 .sobre-mi {
     background-color: var(--crema);
+    background: linear-gradient(to bottom, var(--crema) 0%, var(--blanco) 100%); /* Degradado vertical */
     padding: 4rem 2rem;
     text-align: center;
+}
+
+.sobre-mi p {
+    width: 85rem;
+    max-width: 100%;
 }
 
 .sobre-mi .skills {
@@ -157,12 +156,16 @@ h2 {
     margin-top: 2rem;
 }
 
-.sobre-mi section {
-    background-color: var(--blanco);
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+.sobre-mi section {   
+    padding: 2rem; 
     width: 30%;
+}
+
+.skills {
+   background-color: var(--blanco);
+   border-radius: 1rem;
+   width: 107.5rem;
+   margin: 0 5.2rem;
 }
 
 .sobre-mi section img {
@@ -183,6 +186,7 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+
 /* Section Contacto */
 .contacto {
     background-color: var(--blanco);
@@ -202,7 +206,45 @@ h2 {
     display: inline-block;
 }
 
+/* Footer */
 footer {
     background-color: var(--oscuro);
     color: var(--claro);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer img {
+    height: 4rem;
+}
+
+footer h5 {
+    margin: 1rem 0;
+    font-weight: normal;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+footer .social-icons a {
+    color: var(--verde);
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: var(--claro);
+    transition: all 0.8s ease; 
+}
+
+footer .social-icons a svg {
+    height: 3rem;
+}
+
+footer p {
+    margin: 1rem 0 0;
+    color: var(--blanco);
 }
