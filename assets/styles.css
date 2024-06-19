@@ -26,6 +26,8 @@ body {
     padding: 0;
 }
 
+@media (max-width: 480px) { body {font-size: 16px;} }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -37,6 +39,8 @@ header {
 .logo {
     max-width: 190px;
 }
+
+@media (max-width: 480px) { .logo {max-width: 160px;} }
 
 .contact-button {
     background-color: var(--claro);
@@ -79,6 +83,8 @@ h2 {
     margin: 0;
     font-weight: 400;
 }
+
+@media (max-width: 480px) { h1 {font-size: 3.8rem;} h2 {font-size: 2.8rem;} }
 
 .icon {
     border-radius: 50%;
