@@ -52,7 +52,7 @@ header {
     transition: background-color 0.5s;
 }
 
-@media (max-width: 480px) { .contact-button {font-size: 15px;} }
+@media (max-width: 480px) { .contact-button {font-size: 12px;} }
 
 .contact-button:hover {
     background-color: var(--verde);
