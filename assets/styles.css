@@ -192,6 +192,74 @@ h2 {
     opacity: 1; /* Mostrar otros títulos al hacer hover */
 }
 
+/* Estilos para la tabla en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .sobre-mi .skills {
+        display: block; /* Para que las celdas se dispongan en una sola columna */
+        width: 100%;
+        margin: 0;
+    }
+
+    .sobre-mi table,
+    .sobre-mi tbody,
+    .sobre-mi tr,
+    .sobre-mi td {
+        display: block;
+        width: 100%;
+    }
+
+    .sobre-mi tr {
+        margin-bottom: 2rem;
+    }
+
+    .sobre-mi td {
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .sobre-mi .icon-prog {
+        text-align: center;
+    }
+
+    .sobre-mi h3,
+    .sobre-mi h4,
+    .sobre-mi p {
+        text-align: center;
+    }
+
+    .sobre-mi ul {
+        padding-left: 0;
+    }
+
+    .sobre-mi ul li {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Estilos para la tabla en pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .sobre-mi .skills {
+        padding: 1rem;
+    }
+
+    .sobre-mi .skills td {
+        padding: 0.5rem;
+    }
+
+    .sobre-mi h3 {
+        font-size: 1.8rem;
+    }
+
+    .sobre-mi h4 {
+        font-size: 1.6rem;
+    }
+
+    .sobre-mi p,
+    .sobre-mi ul li {
+        font-size: 1.4rem;
+    }
+}
 
 
 /* GitHub Section */
